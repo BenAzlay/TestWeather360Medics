@@ -5,7 +5,9 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    weather: {}
+    weather: null
+  },
+  getters: {
   },
   mutations: {
     setWeather: (state, payload) => {
