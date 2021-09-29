@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row items-center">
-      <span class="font-bold mr-2">{{ title }}:</span>
+      <span class="font-semibold mr-2">{{ title }}:</span>
       <span class="">{{ content }}°C</span>
   </div>
 </template>

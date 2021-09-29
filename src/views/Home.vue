@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="mb-4">
+    <div class="mb-2">
       <h1 class="font-black text-xl">
         Paris weather forecast ({{ forecasts ? forecasts.length : 0 }} days)
       </h1>
