@@ -5,10 +5,20 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    weather: {}
   },
   mutations: {
+    setWeather: (state, payload) => {
+      state.weather = payload
+    }
   },
   actions: {
+    saveWeather({ commit }, payload) {
+      return new Promise((resolve) => {
+        commit('setWeather', payload)
+        resolve()
+      })
+    }
   },
   modules: {
   }
